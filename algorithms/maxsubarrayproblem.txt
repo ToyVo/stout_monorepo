@@ -1,0 +1,76 @@
+profit = price of the buying stock - price of selling stock
+assumption: price of the stock in the future is known
+Objective: figure out which day to buy the sock, which day to sell the sock in order to make the max profit
+
+Suppose that you been offered the opportunity to invest in the Volatile Chemical Corporation.
+  Like the chemicals the company produces, the stock price of the Volatile Chemical Corporation is rather volatile.
+  You are allowed to buy one unit of stock only one time and then sell it at a later date.
+  Assume that the price of the stock in the future is known, write an algorithm to maximize the profit.
+ 
+ 
+bool haveStock
+void BuyorSell(stock day, stock nextday)
+{
+	if(haveStock)
+	{
+		if(day.price()>nextday.price())
+			sell();
+	}
+	else
+	{
+		if(day.price()<nextday.price())
+			buy();
+	}
+}
+
+
+//I guess we are looking for the largest gap between two values, so buy once and sell once?
+max_profit(a,first,last)
+	if(last>first)
+		middle = (first+last)/2;
+		left_max = max_profit(a,first,middle);
+		right_max = max_profit(a,middle,last);
+		cross_max = mid_profit(a,first,middle,last);
+		if(left_max>right_max && left_max>cross_max)
+			return left_max;
+		else if(right_max>left_max && right_max>cross_max)
+			return right_max;
+		else
+			return cross_max;
+			
+mid_profit(a,first,middle,last)
+	left = -inf;
+	sum = 0;
+	for( i = middle; i < first; i++)
+		sum += a[i]
+		if(sum>left)
+			left=sum;
+	right = inf;
+	sum = 0;
+	for( i = middle + 1; i < last; i++)
+		sum+= a[i]
+		if(sum>right)
+			right = sum;
+	return left+right;
+	
+	
+	
+//I get the point of this algorithms lab is meant to teach about divide and conquer ie recursive functions
+//But I feel like this could be coded for efficiently, but what do I know I'm studying this I don't know it
+
+max_profit(a,first,last)
+	int left = first;
+	int right = last;
+	int indexmin = first;
+	int indexmax = last;
+	while(left < right)
+	{
+		if(a[left]<a[indexmin])
+			indexmin = left;
+		left++;
+		if(a[right>a[indexmax])
+			indexmax = right;
+		right++;
+	}
+	
+//I have realized that is above wont work

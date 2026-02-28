@@ -1,0 +1,16 @@
+Johnson 76
+Miller 90
+Duffy 95
+Robinson 45
+Sam 63
+Goofy 89
+Peter 95
+Mike 72
+Bill 76
+Danny 56
+Blair 95
+Roony 87
+David 67
+Mandy 95
+Andy 72
+Jackson 76

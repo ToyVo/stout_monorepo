@@ -1,0 +1,28 @@
+Script started on 2020-01-29 10:44:52-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/c\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c[1;37m~/Documents/OperatingSystemsStout/Assignment1/c [1;32m$ [0mgcc 
+CMakeLists.txt     assignment1_c.txt  main.c
+[1;37m~/Documents/OperatingSystemsStout/Assignment1/c [1;32m$ [0mgcc main.c
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/c\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c[1;37m~/Documents/OperatingSystemsStout/Assignment1/c [1;32m$ [0mls
+total 28
+-rw-r--r-- 1 toyvo users   123 2020-01-29 10:21 CMakeLists.txt
+-rwxr-xr-x 1 toyvo users 16944 2020-01-29 10:45 [0m[01;32ma.out[0m
+-rw-r--r-- 1 toyvo users     0 2020-01-29 10:44 assignment1_c.txt
+-rw-r--r-- 1 toyvo users   707 2020-01-29 10:21 main.c
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/c\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c[1;37m~/Documents/OperatingSystemsStout/Assignment1/c [1;32m$ [0m./a.out
+Enter in a sentence
+test yes no
+Enter in a word to search for
+file
+Searching test yes no for file
+NOT FOUND
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/c\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c[1;37m~/Documents/OperatingSystemsStout/Assignment1/c [1;32m$ [0m./a.out
+Enter in a sentence
+test yes no
+Enter in a word to search for
+no
+Searching test yes no for no
+FOUND
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/c\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/c[1;37m~/Documents/OperatingSystemsStout/Assignment1/c [1;32m$ [0mexit
+exit
+
+Script done on 2020-01-29 10:45:34-06:00 [COMMAND_EXIT_CODE="0"]

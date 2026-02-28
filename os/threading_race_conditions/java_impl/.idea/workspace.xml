@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="842c54df-1e80-4ac6-9761-5cd673deb184" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cpp_impl/Customer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/diekvoss/ParallelCounting.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aOmj3Nrm4Sum3V5Smw5AZfGaAg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunManager" selected="Application.BankDriver">
+    <configuration name="BankDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diekvoss.BankDriver" />
+      <module name="java_impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diekvoss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.diekvoss.Main" />
+      <module name="java_impl" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="842c54df-1e80-4ac6-9761-5cd673deb184" name="Default Changelist" comment="" />
+      <created>1586615146154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586615146154</updated>
+      <workItem from="1586615154385" duration="166000" />
+      <workItem from="1586615345625" duration="17164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="257" width="374" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1586617207128">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="768" y="257" width="374" height="590" key="#com.intellij.ide.util.MemberChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1586617207128" />
+    <state x="738" y="309" width="424" height="483" key="FileChooserDialogImpl" timestamp="1586615232297">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="738" y="309" width="424" height="483" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1586615232297" />
+    <state width="910" height="277" key="GridCell.Tab.0.bottom" timestamp="1586634188178">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="910" height="277" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1586634188178" />
+    <state width="910" height="277" key="GridCell.Tab.0.center" timestamp="1586634188177">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="910" height="277" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1586634188177" />
+    <state width="910" height="277" key="GridCell.Tab.0.left" timestamp="1586634188176">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="910" height="277" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1586634188176" />
+    <state width="910" height="277" key="GridCell.Tab.0.right" timestamp="1586634188177">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="910" height="277" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1586634188177" />
+    <state x="443" y="129" width="1024" height="844" key="SettingsEditor" timestamp="1586615656886">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="443" y="129" width="1024" height="844" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1586615656886" />
+    <state x="833" y="173" width="495" height="533" key="cloudConfig.SelfSettingsDialog" timestamp="1586615684674">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="833" y="173" width="495" height="533" key="cloudConfig.SelfSettingsDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1586615684674" />
+  </component>
+</project>

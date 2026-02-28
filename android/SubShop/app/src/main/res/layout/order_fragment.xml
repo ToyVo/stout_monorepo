@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="orderViewModel"
+            type="com.diekvoss.subshop.screens.order.OrderViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/order_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".screens.order.OrderFragment">
+
+        <Button
+            android:id="@+id/place_order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/place_order"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/order_title_text"
+            style="@style/myTextView"
+            android:text="@string/build_your_sub_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sandwitch_type_text"
+            style="@style/myTextView"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/sandwich_type_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/order_title_text" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/sandwich_type_chip_group"
+            style="@style/myChipGroup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sandwitch_type_text"
+            app:singleLine="false"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/philly_chip"
+                style="@style/myChoiceChip"
+                android:text="@string/sandwich_type_philly" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/italian_chip"
+                style="@style/myChoiceChip"
+                android:text="@string/sandwich_type_italian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/bbq_chicken_chip"
+                style="@style/myChoiceChip"
+                android:text="@string/sandwich_type_bbq_chicken" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:id="@+id/bread_type_text"
+            style="@style/myTextView"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/bread_type_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sandwich_type_chip_group" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/bread_type_chip_group"
+            style="@style/myChipGroup"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bread_type_text"
+            app:singleLine="false"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/flat_bread_chip"
+                style="@style/myChoiceChip"
+                android:text="@string/bread_type_flatbread" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/white_bread_chip"
+                style="@style/myChoiceChip"
+                android:text="@string/bread_type_white" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/wheat_bread_chip"
+                style="@style/myChoiceChip"
+                android:text="@string/bread_type_wheat" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:id="@+id/toppings_text"
+            style="@style/myTextView"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/toppings_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bread_type_chip_group" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/toppings_chip_group"
+            style="@style/myChipGroup"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topping_disclaimer"
+            app:singleLine="false"
+            app:singleSelection="false">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/lettuce_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_lettuce" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/mayo_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_mayo" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/tomato_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_tomato" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/bacon_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_bacon" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/cheese_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_cheese" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/mustard_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_mustard" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/spinach_chip"
+                style="@style/myFilterChip"
+                android:text="@string/toppings_spinach" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:id="@+id/topping_disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/for_each_topping_add_0_25"
+            app:layout_constraintStart_toStartOf="@+id/toppings_text"
+            app:layout_constraintTop_toBottomOf="@+id/toppings_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

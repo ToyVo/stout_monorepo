@@ -1,0 +1,56 @@
+Script started on 2020-02-09 18:16:43-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment2\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2[1;37m~/Documents/OperatingSystemsStout/Assignment2 [1;32m$ [0mls -al
+total 12
+drwxr-xr-x 2 toyvo users 4096 2020-02-09 18:16 [0m[01;34m.[0m
+drwxr-xr-x 7 toyvo users 4096 2020-02-08 17:41 [01;34m..[0m
+-rw-r--r-- 1 toyvo users    0 2020-02-09 18:16 assignment2.txt
+-rw-r--r-- 1 toyvo users 1627 2020-02-09 18:15 main.cpp
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment2\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2[1;37m~/Documents/OperatingSystemsStout/Assignment2 [1;32m$ [0mg++ main.cpp -[K[K
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment2\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2[1;37m~/Documents/OperatingSystemsStout/Assignment2 [1;32m$ [0m./ma[K[Ka.out
+Enter in a sentence
+test yes no * \ /   \n $
+test
+yes
+no
+*
+/
+\n
+$
+test
+yes
+no
+*
+/
+\n
+$
+NULL
+enter in a word to search for
+yes
+string,string 1
+string,string vector 1
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment2\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2[1;37m~/Documents/OperatingSystemsStout/Assignment2 [1;32m$ [0m./a.out
+Enter in a sentence
+test yes no * / \n $
+test
+yes
+no
+*
+/
+\n
+$
+test
+yes
+no
+*
+/
+\n
+$
+NULL
+enter in a word to search for
+word
+string,string 0
+string,string vector 0
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment2\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment2[1;37m~/Documents/OperatingSystemsStout/Assignment2 [1;32m$ [0mexit
+exit
+
+Script done on 2020-02-09 18:18:03-06:00 [COMMAND_EXIT_CODE="0"]

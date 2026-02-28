@@ -1,0 +1,29 @@
+Script started on 2020-01-29 10:53:04-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/java\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java[1;37m~/Documents/OperatingSystemsStout/Assignment1/java [1;32m$ [0mls
+total 4
+-rw-r--r-- 1 toyvo users 583 2020-01-29 10:51 Main.java
+-rw-r--r-- 1 toyvo users   0 2020-01-29 10:53 assignment1_java.txt
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/java\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java[1;37m~/Documents/OperatingSystemsStout/Assignment1/java [1;32m$ [0mjavac Main.java
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/java\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java[1;37m~/Documents/OperatingSystemsStout/Assignment1/java [1;32m$ [0mls
+total 8
+-rw-r--r-- 1 toyvo users 1334 2020-01-29 10:53 Main.class
+-rw-r--r-- 1 toyvo users  583 2020-01-29 10:51 Main.java
+-rw-r--r-- 1 toyvo users    0 2020-01-29 10:53 assignment1_java.txt
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/java\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java[1;37m~/Documents/OperatingSystemsStout/Assignment1/java [1;32m$ [0mjava Main
+Enter in a sentence
+test yes no
+Enter in a word to search for
+file
+Searching test yes no for file
+NOT FOUND
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/java\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java[1;37m~/Documents/OperatingSystemsStout/Assignment1/java [1;32m$ [0mjava Main
+Enter in a sentence
+test Yes     yes no
+Enter in a word to search for
+test
+Searching test yes no for test
+FOUND
+]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java\]7;file://collinlaptop/home/toyvo/Documents/OperatingSystemsStout/Assignment1/java\]0;toyvo@collinlaptop:~/Documents/OperatingSystemsStout/Assignment1/java[1;37m~/Documents/OperatingSystemsStout/Assignment1/java [1;32m$ [0mexit
+exit
+
+Script done on 2020-01-29 10:53:37-06:00 [COMMAND_EXIT_CODE="0"]

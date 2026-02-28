@@ -1,0 +1,30 @@
+//activity selection problem pseudo code
+//assuming that the set if sorted by ending times
+
+
+struct activity
+{
+	int startTime;
+	int endTime;
+};
+
+activity activitySet[]; //predefined
+vector<activity> solution[];
+int endTime = -inf;
+for (int i = 0; i < n; i++)
+{
+	if(activitySet[i].startTime > endTime)
+	{
+		solution.push_back(activitySet[i]);
+		endTime = activitySet[i].endTime;
+	}
+}
+
+//convert to recursive algorithm
+activitySelection(NEED TO FILL OUT)
+{
+	int m = k + 1;
+	while( m <= n && s[m]<f[k]
+		m++;
+	if( m<=
+}

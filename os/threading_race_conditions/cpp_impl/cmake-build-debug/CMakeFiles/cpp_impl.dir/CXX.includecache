@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/toyvo/Documents/OperatingSystemsStout/threading_race_conditions/cpp_impl/Customer.hpp
+string
+-
+sstream
+-
+
+/home/toyvo/Documents/OperatingSystemsStout/threading_race_conditions/cpp_impl/main.cpp
+Customer.hpp
+/home/toyvo/Documents/OperatingSystemsStout/threading_race_conditions/cpp_impl/Customer.hpp
+chrono
+-
+fstream
+-
+functional
+-
+iostream
+-
+random
+-
+thread
+-
+vector
+-
+

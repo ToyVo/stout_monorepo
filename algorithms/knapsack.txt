@@ -1,0 +1,17 @@
+//psuedocode
+//assuming that the list of items is sorted by value per weight
+Greedy(items N, sack K)
+{
+  for (int i = 0; i < N.length(); i++)
+  {
+    for (int j = 0; i < N[i].Weight; j++)
+    {
+      if (K.taken < K.capacity)
+      {
+        K.taken++;
+        K.Value += N[i].Value / N[i].Weight;
+      }
+    }
+  }
+  return K.Value;
+}
